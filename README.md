@@ -16,4 +16,6 @@ Using this command line:
 url_for('name of func',parameters)
 [example code]
 
+And use url_for can also help you to redirect the route
+[example code]
 
