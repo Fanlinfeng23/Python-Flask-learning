@@ -10,7 +10,7 @@ Using this command line:
  [example code]()
 > when you run this code on your own computer,it will return a URL，you put it on your browser,you will get the word‘hello world’
 
->the URL is like that"Running on http://127.0.0.1:5000",put "http://127.0.0.1:5000" on your browser
+>the URL is like that"Running on http://127.0.0.1:5000", put "http://127.0.0.1:5000" on your browser
 
 ## Use url_for() to create a dynamic function
 url_for('name of func',parameters)
