@@ -19,3 +19,10 @@ url_for('name of func',parameters)
 And use url_for can also help you to redirect the route
 [example code](source_code/app2.py)
 
+
+## In the real application, we use html, CSS, Javascript and so on.
+> in this part, we will learn some basic knowledge about website and front-end infrastrcture.
+
+## to render our template, we will use render_template
+
+To learn more thing about this module, click [this]
