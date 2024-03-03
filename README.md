@@ -14,8 +14,8 @@ Using this command line:
 
 ## Use url_for() to create a dynamic function
 url_for('name of func',parameters)
-[example code]
+[example code](source_code/app1.py)
 
 And use url_for can also help you to redirect the route
-[example code]
+[example code](source_code/app2.py)
 
