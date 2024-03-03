@@ -25,4 +25,9 @@ And use url_for can also help you to redirect the route
 
 ## to render our template, we will use render_template
 
-To learn more thing about this module, click [this]
+To learn more thing about this module, click [this](http://csdnimg.cn/MjOcr)
+
+And to get the source code, click [here]
+> Remember one thing is important, If your IDLE cannot 'mkdir templates' for you, you should put this in your command line and then in it you could edit your HTML file.
+
+
