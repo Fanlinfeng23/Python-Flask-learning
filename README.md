@@ -37,4 +37,4 @@ And to get the source code, click [here](/source_code/renderTemplate.py). And [t
 > Then open the browser, and put the url on it .
 > Then add the arguments as i said in the python code, you may get "your password is XXXXXXX", which means your code is  correct!
 
-Since the usage of Post() is a little compilcated, click [this file](/教学内容/Post 的使用说明.md) to learn more about that. 
+Since the usage of Post() is a little compilcated, click [thisfile](/教学内容/Post 的使用说明.md) to learn more about that. 
