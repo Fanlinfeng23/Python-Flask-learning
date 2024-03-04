@@ -32,7 +32,6 @@ And to get the source code, click [here](/source_code/renderTemplate.py). And [t
 
 
 ## in the request repo, we could use the function: get() and put()
-[code using get]
-[code using put] 
+[code using get](source_code/reqrepo.py)
 
 
