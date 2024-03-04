@@ -31,9 +31,9 @@ And to get the source code, click [here](/source_code/renderTemplate.py). And [t
 > Remember one thing is important, If your IDLE cannot 'mkdir templates' for you, you should put this in your command line and then in it you could edit your HTML file.
 
 
-## in the request repo, we could use the function: get() and put()
-[code using get](source_code/reqrepo.py)
+## in the request repo, we could use the function: get() and post()
+[code about how to use get](source_code/reqrepo.py)
+
 > Then open the browser, and put the url on it .
 > Then add the arguments as i said in the python code, you may get "your password is XXXXXXX", which means your code is  correct!
-
-
+> Since the usage of Post() is a little compilcated, click [this file](/教学内容/Post 的使用说明.md) to learn more about that. 
