@@ -31,3 +31,8 @@ And to get the source code, click [here](/source_code/renderTemplate.py). And [t
 > Remember one thing is important, If your IDLE cannot 'mkdir templates' for you, you should put this in your command line and then in it you could edit your HTML file.
 
 
+## in the request repo, we could use the function: get() and put()
+[code using get]
+[code using put] 
+
+
