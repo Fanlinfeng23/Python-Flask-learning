@@ -38,3 +38,10 @@ And to get the source code, click [here](/source_code/renderTemplate.py). And [t
 > Then add the arguments as i said in the python code, you may get "your password is XXXXXXX", which means your code is  correct!
 
 Since the usage of Post() is a little compilcated, click [thisfile](/教学内容/Post的使用说明.md) to learn more about that. 
+
+
+## Session and Cookie
+But in reality, we always see almost all website using cookie or session to store the user's data. Because some of the reasons, not all data is suitable to store in the server, so we well use cookie to store some datas like username, userID, and that's also the reason why we could sometimes automatically login.  
+Please have a look at the [examplecode](/source_code/session_try.py)
+> the upper code has two route: one is set_session, and the other one is get_session, you should put the URL:  XXXXXXXXX/set_session first to set session.
+> And then you could get the session you set before.
