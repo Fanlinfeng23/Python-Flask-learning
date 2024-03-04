@@ -42,6 +42,10 @@ Since the usage of Post() is a little compilcated, click [thisfile](/教学内�
 
 ## Session and Cookie
 But in reality, we always see almost all website using cookie or session to store the user's data. Because some of the reasons, not all data is suitable to store in the server, so we well use cookie to store some datas like username, userID, and that's also the reason why we could sometimes automatically login.  
-Please have a look at the [examplecode](/source_code/session_try.py)
+Please have a look at the [examplecode](/source_code/session_try.py) to learn the session part.
+
 > the upper code has two route: one is set_session, and the other one is get_session, you should put the URL:  XXXXXXXXX/set_session first to set session.
 > And then you could get the session you set before.
+
+
+Please have a look at this [examplecode](/source_code/cookie_try.py) to learn the cookie part.
