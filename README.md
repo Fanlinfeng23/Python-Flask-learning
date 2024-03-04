@@ -33,5 +33,7 @@ And to get the source code, click [here](/source_code/renderTemplate.py). And [t
 
 ## in the request repo, we could use the function: get() and put()
 [code using get](source_code/reqrepo.py)
+> Then open the browser, and put the url on it .
+> Then add the arguments as i said in the python code, you may get "your password is XXXXXXX", which means your code is  correct!
 
 
