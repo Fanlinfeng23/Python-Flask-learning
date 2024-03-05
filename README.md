@@ -49,3 +49,20 @@ Please have a look at the [examplecode](/source_code/session_try.py) to learn th
 
 
 Please have a look at this [examplecode](/source_code/cookie_try.py) to learn the cookie part.
+
+The diffferences betweeen cookie and session are as fllows:
+
+1.storage location: cookie is store on the client-side, while session is always stored in server-side.
+
+2.storage volume: cookie could only store limited datas
+
+## error 
+
+In Flask, we have a decorators to print error page
+
+There are two ways to do that:
+
+1.use @XXXX.errorhandler(404) to do that:[ways](/教学内容/error解决方案1.md)
+
+2.use abort module to handle that: [examplecode](/source_code/errorhandling2.py)
+
