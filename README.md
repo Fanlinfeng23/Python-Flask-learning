@@ -22,6 +22,8 @@ And use url_for can also help you to redirect the route
 
 ## In the real application, we use html, CSS, Javascript and so on.
 > in this part, we will learn some basic knowledge about website and front-end infrastrcture.
+### [learning HTML](/教学内容/HTMLbasic.md)
+
 
 ## to render our template, we will use render_template
 
