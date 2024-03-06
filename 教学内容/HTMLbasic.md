@@ -149,9 +149,121 @@ td：table dock，定义表格的单元格
 [示例代码](/source_code/table.html)
 ### 2.单元格合并
 一部分单元格需要进行跨行跨列的合并
- 
+>rowspan:上下跨行合并
 
-## 注意：有时需要用字符实体&nbsp；来替换空格，因为html打开存在空白折叠现象
+>colspan：左右跨列合并
+
+属性值是数字，数字是几就是跨几行/列
+
+#### 步骤
+1.确定一行有几个td
+
+2.然后看共有几行
+[示例代码](/source_code/table2.html)
+
+### 表格的分区
+一个完整的表格包括三个部分：标题、表头、主题
+
+一个table内部实际还有三个分区标签组成
+
+caption：定义表格的标题
+
+thead：定义表格的头部:
+tr>th
+
+tbody：定义表格主题:
+tr>td
+
+[示例代码](/source_code/table3.html)
+
+
+## 表单元素
+表单元素是网页中提供给用户点击或输入的控件
+
+### form：容器级标签，内部存放可输入的控件
+如果输入的表单需要提交到数据库，所有的控件都需被form包裹
+
+method属性：指提交到数据库的方法，属性值有post 和 get
+
+action属性：是数据提交的位置
+#### 1.input标签
+input标签是输入框的一种，而不是只有输入框，通过type属性可以拓展多功能
+##### 1.1输入框
+> "< input type="text">"
+
+有两个重要属性：value 和placeholder
+
+value可在输入框中显示value的值
+
+placeholder： 提示用户的占位符，没有value的时候显示
+
+##### 1.2密码框
+通过type属性设置type 值为password
+
+输入后通过掩码形式显示
+
+##### 1.3单选框
+通过type属性的radio值来实现的
+
+若要实现单选，需要设置相同的name属性
+
+<input type="radio" name="sex">男
+
+<input type="radio" name="sex">女
+
+##### 1.4多选框
+type值为checkbox来设置的
+
+建议同一组设置同一个name属性
+
+##### 1.5单选框与多选框的默认选择
+在input 标签中加入checked属性，值为checked
+
+##### 1.6 单选多选框的点击域的扩大
+我们发现点击文字时不能获得上述效果，必须点击框才可以，我们可以通过label标签扩大其点击域
+
+用label标签套住input标签
+
+
+[示例代码](/source_code/input.html)
+
+
+#### 2.文本域
+标签：textarea
+
+我们之前学习input单行输入框，只能输入单行文本，如果需要使用多行文本，就使用textarea **双标签**
+
+属性值是row 和col分别表示行数和列数
+
+[示例代码](/spurce_code/textarea.html)
+
+textarea可通过拖动右下角来缩放文本
+
+
+#### 3.下拉输入框
+需要一组标签（select & option）进行制作
+
+select>option类似于列表
+
+默认第一个是显示的，而非选中的，默认选中项用selected属性
+
+> " &lt; option selected="selected">深圳 < /option>"
+
+[示例代码](/source_code/option.html)
+
+## 布局标签
+有div 和 span
+> 无明确作用，都是常用的布局标签，俗称盒子
+
+div  容器级双标签，分割大跨度，跨度布局分割，如网站的导航区，检索区
+
+
+span 分割小区域文字分割
+
+例：&lt; div>今天一共收入< span style="color:red;">100000</ span>元</ div>
+用来分割页面布局
+
+
 
 ## 相对路径和绝对路径
 ### 相对路径：
@@ -163,3 +275,18 @@ td：table dock，定义表格的单元格
 
 网站地址绝对地址在实际开发中往往使用
 
+## HTML的注释
+在编辑器中能看到，在浏览器中看不到，代码如下
+>  <!-- -->
+**快捷键**：ctrl+/ 或着 command+/  （for Mac）
+
+## HTML的字符实体
+如空格的字符实体为&nbsp，其实还有很多字符实体
+
+[字符实体手册](https://www.w3cschool.cn/htmltags/html-symbols.html)
+|常用字符实体     |字符表示       |
+|------|---------|
+|空格      |& nbsp;     |
+| <     | & gt;     |
+| >  |& lt;|
+> 注意：有时需要用字符实体&nbsp；来替换空格，因为html打开存在空白折叠现象
