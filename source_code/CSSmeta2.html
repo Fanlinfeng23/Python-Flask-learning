@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 500px;
+        height: 300px;
+        background-color: tomato;
+    }
+    a{
+        /* 可以看到width margin 没有发挥任何作用，可尝试将其注释掉，观察前后结果变化 */
+        width: 666px;
+        margin-top: 88px;
+        /* color是能够发挥作用的 */
+        
+        color: whitesmoke;
+        /* 宽高由内容决定 */
+        font-size: 50px;
+    }
+</style>
+<body>
+    <div>
+        <a href="">这是一个a标签</a>
+        <a href="">这是两个a标签</a>
+    </div>
+</body>
+</html>
