@@ -24,6 +24,8 @@ And use url_for can also help you to redirect the route
 > in this part, we will learn some basic knowledge about website and front-end infrastrcture.
 ### [learning HTML](/教学内容/HTMLbasic.md)
 
+### [learning_CSS](/教学内容/CSS.md)
+
 
 ## to render our template, we will use render_template
 
