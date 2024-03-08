@@ -19,6 +19,7 @@
 
 ## 常用的CSS样式文本：
 > 主要靠背
+
 1.color 设置文字颜色
 
 2.font—size设置文字大小，如：font-size：12px
