@@ -7,6 +7,7 @@
 
 2.嵌入式：单独采用style标签进行操作，但是要标记改变何种标签[example_code](/source_code/2.html)
 > 嵌入式首页用的多，因为他加载更快
+
 3.外联式：利用link标签链接外部css文件，对html文件进行操作[example_code](/source_code/3.html)
 
 ## CSS 的基本语法
